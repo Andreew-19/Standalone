@@ -60,7 +60,7 @@ end
 Citizen.CreateThread(function()
 	while true do
 		Citizen.Wait(0)
-		drawScreenText(0.5, 0.976, 0,0, 0.25, "Apasa ~r~[virgula] ~w~pentru cursor", 255, 255, 255, 230, 1, 0, 1)
+		drawScreenText(0.5, 0.976, 0,0, 0.25, "Press ~r~[comma] ~w~for the cursor", 255, 255, 255, 230, 1, 0, 1)
 	end
 end)
 
