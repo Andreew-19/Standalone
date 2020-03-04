@@ -81,11 +81,6 @@ Citizen.CreateThread(function()
 		else
 			ascundeHudAlpha = 180
 		end
-		if(VeziNumeleTau)then
-			hideNameAlpha = 255
-		else
-			hideNameAlpha = 180
-		end
 		
 		if(isCursor)then		
 			ShowCursorThisFrame()
